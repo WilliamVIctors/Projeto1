@@ -1,0 +1,56 @@
+/* Fonts==================== */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lilita+One&family=Montserrat:wght@200;300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@200;300&display=swap');
+  /* ======================= */
+
+  header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+  }
+header h1 {
+  font-family: Lilita One;
+  font-size: 50px;
+  padding-left: 20px;
+  color: rgb(160, 0, 253);
+  font-weight: 400;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+header nav {
+  padding-right: 20px;
+
+}
+header nav a {
+font-size: 30px;
+padding: 20px;
+color: rgb(160, 0, 253);
+cursor: pointer;
+transition: 0.5s ease-in-out;
+
+}
+header h1:hover {
+color: blue;
+
+}
+
+header nav .face:hover {
+  color: #1778F2;
+
+}
+header nav :nth-child(2):hover {
+  color: #e95950;
+
+}
+header nav :nth-child(3):hover{
+  color: #0e76a8;
+
+}
+
+body {
+  background-color: rgb(216, 212, 212);
+}
